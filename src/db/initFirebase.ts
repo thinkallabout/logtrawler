@@ -12,7 +12,14 @@ import {
 } from 'firebase/auth'
 
 // the values to initialize the firebase app can be found in your firebase project
-const firebaseConfig = {}
+const firebaseConfig = {
+  apiKey: 'AIzaSyDbNNKQFA1qUYv6ADYhOMWkrEGQmpUQGQI',
+  authDomain: 'log-ripper.firebaseapp.com',
+  projectId: 'log-ripper',
+  storageBucket: 'log-ripper.appspot.com',
+  messagingSenderId: '669243002904',
+  appId: '1:669243002904:web:83951659b51a1e8d47f36d'
+}
 
 const initFirebase = async () => {
   try {
