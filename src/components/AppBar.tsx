@@ -29,7 +29,7 @@ const AppBar = (props: Props) => {
       position='sticky'
       color='default'
     >
-      <Toolbar>
+      <Toolbar variant='dense'>
         {props.linkBackTo && (
           <IconButton
             component={Link}
